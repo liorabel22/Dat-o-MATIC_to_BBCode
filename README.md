@@ -41,12 +41,16 @@ and generating the BBCode automatically.
 
 ## Example Output
 
-    [align=center][b]Ar nosurge - Umareizuru Hoshi e Inoru Uta (Japan) (Theme)[/b]
-    Game ID: [b]JP0103-NPJB00573_00-INIDYCUSTOMTHEME[/b]
+    [align=center][b]Assassin's Creed - Brotherhood (Europe) (Theme)[/b]
+    Game ID: [b]EP0001-NPEP00085_00-ACBTHEME00000001[/b]
 
-    Verified against No-Intro Checksums [url=https://datomatic.no-intro.org/index.php?page=show_record&s=446&n=00135]Datomatic - Sony - PlayStation 3 (PSN) (Themes)[/url]
-    PKG - CRC32: [b]1b0cf1cd[/b] | MD5: [b]8215520ae45f5649ebd028f74f3b9fb9[/b] | SHA-1: [b]903f8495f6ce458306835cbad55d5c4e7f1d076c[/b]
-    RAP - CRC32: [b]2c2afbd5[/b] | MD5: [b]21cc29e5b3399fb1c37079accea0a176[/b] | SHA-1: [b]d20a196325e4020da0ef1f5d895214a5ae47daee[/b]
+    Verified against No-Intro Checksums [url=https://datomatic.no-intro.org/index.php?page=show_record&s=446&n=00141]Datomatic - Sony - PlayStation 3 (PSN) (Themes)[/url]
+
+    PKG File: [b]NNaDiHTjwCecMuBHlRRdGXenZcYtSSZdleLEaaFsUHyovrhZYuXNWZQfQHxjTAOp.pkg[/b]
+    RAP File: [b]EP0001-NPEP00085_00-ACBTHEME00000001.rap[/b]
+
+    PKG - CRC32: [b]01c660de[/b] | MD5: [b]4dfb39f8bcc6cc9173d1a3c42ba2a6c9[/b] | SHA-1: [b]46a9cc74bcf62d836c053e4adf92d8ae4dd2610f[/b]
+    RAP - CRC32: [b]f8074d68[/b] | MD5: [b]d47e4f2506b0105b52dd028ff5ac6e34[/b] | SHA-1: [b]685dd6e9941d40d2bc098675f4a334f8df469955[/b]
     To use these files, install them on a modified PS3 or RPCS3[/align]
 
 ------------------------------------------------------------------------
