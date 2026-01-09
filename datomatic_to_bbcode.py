@@ -127,6 +127,8 @@ def build_bbcode(
     game_id: str,
     url: str,
     system_name: str,
+    pkg_file: str,
+    rap_file: str,
     pkg: Hashes,
     rap: Hashes,
 ) -> str:
@@ -144,6 +146,10 @@ def build_bbcode(
         f"Game ID: [b]{game_id}[/b]",
         "",
         f"Verified against No-Intro Checksums [url={url}]{link_text}[/url]",
+        f"",
+        f"PKG File: [b]{pkg_file}[/b]",
+        f"RAP File: [b]{rap_file}[/b]",
+        f"",
         f"PKG - {fmt(pkg)}",
     ]
 
@@ -203,6 +209,8 @@ def main():
         game_id=game_id,
         url=url,
         system_name=system,
+        pkg_file=pkg_file,
+        rap_file=rap_file,
         pkg=pkg_hash,
         rap=rap_hash,
     )
