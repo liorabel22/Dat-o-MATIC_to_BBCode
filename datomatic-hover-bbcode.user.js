@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Dat-o-MATIC Hover -> BBCode (PS3 Themes)
 // @namespace    tm-datomatic-bbcode
-// @version      0.1.0
+// @version      0.1.1
 // @description  Hover Dat-o-MATIC links to generate BBCode; click to copy
-// @match        *://*/*
+// @match        https://datomatic.no-intro.org/*
 // @connect      datomatic.no-intro.org
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setClipboard
@@ -272,12 +272,7 @@
   }
 
   function isDatomaticLink(a) {
-    try {
-      const u = new URL(a.href, location.href);
-      return u.host === DATOMATIC_HOST;
-    } catch {
-      return false;
-    }
+    return a instanceof HTMLAnchorElement && a.href.startsWith(location.origin);
   }
 
   // ---------- Events ----------
