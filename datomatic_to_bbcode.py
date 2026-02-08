@@ -142,6 +142,7 @@ def build_bbcode(
         )
 
     lines = [
+        f"--------------------------------",
         f"[align=center][b]{header}[/b]",
         f"Game ID: [b]{game_id}[/b]",
         "",
