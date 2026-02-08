@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dat-o-MATIC Hover -> BBCode (PS3 Themes)
 // @namespace    tm-datomatic-bbcode
-// @version      0.1.1
+// @version      0.1.2
 // @description  Hover Dat-o-MATIC links to generate BBCode; click to copy
 // @match        https://datomatic.no-intro.org/*
 // @connect      datomatic.no-intro.org
@@ -197,7 +197,6 @@
       `CRC32: [b]${h.crc32}[/b] | MD5: [b]${h.md5}[/b] | SHA-1: [b]${h.sha1}[/b]`;
 
     const lines = [
-      '--------------------------------',
       `[align=center][b]${header}[/b]`,
       `Game ID: [b]${gameId}[/b]`,
       '',
