@@ -34,6 +34,10 @@
       margin-top: 8px;
       font-size: 11px;
     }
+    .tm-bbcode-copied {
+      color: #00c853 !important;
+      font-weight: bold !important;
+    }
   `);
 
   const DATOMATIC_HOST = 'datomatic.no-intro.org';
@@ -340,6 +344,7 @@
         const bb = currentBBCode || (await generateBBCodeForDatomaticUrl(a.href));
         GM_setClipboard(bb, 'text');
         showTooltip(lastMouse.x, lastMouse.y, bb + '\n\n✅ Copied!');
+        a.classList.add('tm-bbcode-copied');
         setTimeout(() => {
           if (!currentLink) hideTooltip();
         }, 650);
